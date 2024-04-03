@@ -1,7 +1,6 @@
 
 provider "aws" {
   region = var.aws_region
-  profile = "vscode"
 }
 
 data "aws_availability_zones" "available" {}
